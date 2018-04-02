@@ -1,0 +1,21 @@
+.winner, 
+.loser {
+    grid-area:options;
+    display:flex;
+    justify-content: space-between; 
+    padding: .5rem 0;
+}
+
+.winner > button,
+.loser > button {
+    align-self:middle;
+  padding:.5rem 1rem;
+  margin: .5rem 1rem .5rem 1rem;
+  background-color: #006699;
+  color:white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  border: none;
+  border-radius: 5px;
+}

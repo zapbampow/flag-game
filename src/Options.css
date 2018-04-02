@@ -1,0 +1,40 @@
+.options {
+  grid-area: options;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly ;
+  padding: .5rem 0;
+}
+
+label {
+  white-space:nowrap;
+}
+
+input {
+  margin: 1rem 0 1rem 1rem;
+}
+
+button {
+  padding:0 1rem;
+  margin: .5rem 1rem .5rem 1rem;
+  background-color: #006699;
+  color:white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005580;
+}
+
+button:active {
+  transform: translate(1px, 1px);
+}
+

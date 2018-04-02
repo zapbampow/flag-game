@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+.App {
+  display:grid;
+  grid-template-columns: 1fr minmax(350px, 50em) 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas:
+    "header header header"
+    ". options ."
+    ". flag ."
+  ;
+  font-family: 'IBM Plex Sans', arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  grid-area: header;
+  font-family: 'Londrina Solid';
+  font-size:5rem;
+  text-align: center;
+  background-color: #009933;
+  color: white;
+  padding: 2rem 0;
+  width:100%;
+
+}
+
+.flag {
+  grid-area: flag;
+  display:flex;
+  justify-content:center;
+  margin: 0 1rem;
+  max-width:100%;
+  max-height: 1fr;
+}
+
+.flag-img {
+  border: 1px black solid;
+}
